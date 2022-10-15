@@ -20,10 +20,9 @@ img{
   width: 70px;
 }
 
+.categoryButtonSelected{
+  background-color: green;
+}
 .categoryButton:hover {
  background-color: #fdeb6b;;
-}
-
-.categoryButtonSelected:hover {
- background-color: green;
 }

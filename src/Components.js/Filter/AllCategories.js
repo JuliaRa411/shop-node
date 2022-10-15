@@ -4,15 +4,14 @@ const AllCategories = () =>{
     return (<div>
         
         <h1> What kid of food do you like ? </h1> 
-     {[ "SEAFOOD", "ITALIAN","APETIZERS", "SALADS", "ALL"].
+     {[ "SEAFOOD", "ITALIAN","APETIZERS", "SALADS", "ALL"]
      
-     map(category => <Filter category ={category}/> 
+     .map((category,index) => <Filter key ={index} category ={category}/> 
 
      )}
 
     
         </div>)
-
-
+ 
 }
 export default AllCategories

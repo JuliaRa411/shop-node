@@ -1,7 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit";
 export const dishesSlice = createSlice ({
     name: 'dishes',
-    selectState: {
+    initialState: {
         selectCategory: "SEAFOOD"
     },
     reducers:{
@@ -9,5 +9,5 @@ export const dishesSlice = createSlice ({
     }
 })
 
-export const getSelectedCategory = state => state.dishes.selectCategory;
+export const getSelectedCategory = state => state.dishes.selectedCategory;
 export default dishesSlice.reducer;

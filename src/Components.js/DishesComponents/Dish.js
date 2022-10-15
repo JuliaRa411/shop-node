@@ -1,10 +1,10 @@
-const Dish =({dish}) => {
+const AllCategories =({dish}) => {
     return (<div>
-        <img src={`./${dish.img}.jpg` }/>
-        <h2> {dish.name}</h2>
+        <img src={`./${dish.img}.jpg`}  alt ="food"/>
+        <h2> {dish.name}</h2> 
         <h2> ${dish.price}</h2>
     
       </div>)
 }
 
-export default Dish
+export default AllCategories
