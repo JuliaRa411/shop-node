@@ -9,5 +9,5 @@ export const dishesSlice = createSlice ({
     }
 })
 
-export const getSelectedCategory = state => state.dishes.selectedCategory;
+export const getSelectedCategory = state => state.dishes.selectCategory;
 export default dishesSlice.reducer;
