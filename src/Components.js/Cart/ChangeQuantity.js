@@ -8,7 +8,7 @@ const addQuantity =() => {
 
 const removeQuantity = () => {
     if (quantity <=1) return
-     const newQuantity = quantity-1;
+     const newQuantity = quantity -2;
      setQuantity(newQuantity)
 }
     return (<div>
