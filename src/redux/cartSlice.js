@@ -1,6 +1,5 @@
 import { createSlice } from "@reduxjs/toolkit";
-import { dishesSlice } from "./dishesSlice";
-
+ 
 
 
 export const slice = createSlice ({
@@ -21,6 +20,6 @@ export const slice = createSlice ({
 })
 
 export const getCartItems = state => state.cart.cartItems;
-export const {addItemToCart} = dishesSlice.actions;
+export const {addItemToCart} = slice.actions;
 export default slice.reducer;
 

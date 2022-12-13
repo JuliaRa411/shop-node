@@ -1,11 +1,10 @@
 const CartItem = (cartItem) =>{
     console.log(cartItem)
-    
+
     return (<div> 
-        
-        CART ITEM
+       {cartItem.quantity}
         </div>
     )
 
 }
-export default CartItem
+export default CartItem;
