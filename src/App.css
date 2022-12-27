@@ -32,3 +32,23 @@ img{
   padding: 5px;
   margin: 5px;
 }
+
+.icon{
+  width: 20px;
+}
+
+
+p,h1,h2,button {
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+
+}
+button{
+  background-color: #fdeb6b;
+  margin-top: 10px;
+  margin-left: 15px;
+  border-radius: 7px;
+  padding: 3px;
+
+}
