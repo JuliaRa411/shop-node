@@ -40,7 +40,8 @@ img{
 
 p,h1,h2,button {
 
-  font-family: 'Poppins', sans-serif;
+ 
+  font-family: 'Roboto', sans-serif;
   font-size: 20px;
 
 }
@@ -51,4 +52,25 @@ button{
   border-radius: 7px;
   padding: 3px;
 
+}
+@media all and (max-width:500px  ){
+	.App {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+  img{
+    width: 300px;
+  }
+  h1{
+    text-transform: uppercase;
+  }
+   
+.cartIcon{
+  width: 50px;
+}
 }
